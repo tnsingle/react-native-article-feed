@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { useState } from 'react';
 import { FlatList, Dimensions, StyleSheet, Text, View, ScrollView, TouchableOpacity, Image, Platform, Share, ActivityIndicator } from 'react-native';
 import { styled } from '@shipt/react-native-tachyons';
-import M from './mockJson.json';
 import { build } from '@shipt/react-native-tachyons';
 import {NavigationContainer} from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
