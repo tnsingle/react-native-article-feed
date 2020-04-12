@@ -99,7 +99,7 @@ function Item({ item, navigation }) {
     }
 
     // https://blog.yikkok.com/2019/08/22/bookmark-action-in-react-native-using-flatlist/
-    var handleBookmark = (id) => {
+    let handleBookmark = (id) => {
         const tmpBookmarks = new Set(getBookmarks());
 
         if (tmpBookmarks.has(id)) {
